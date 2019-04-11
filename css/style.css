@@ -1,0 +1,125 @@
+    
+  @media all and (max-width: 900px){
+        #info{ clear: both; margin: 1em;}
+        img{margin: inherit}
+        #media li {width: 198px;margin: 5px;}
+    }
+
+  @media all  and (min-width:901px){
+
+      #info{margin-left: 227px;margin-bottom: 2em;} 
+      #fotos li img:hover, #max img:hover{cursor: pointer}
+      #max{ width: 60%; float: right; }
+      #max img{ margin-top: 7%;  width: 50%}
+
+   }
+
+
+    
+    body {
+        font-family: sans-serif;
+        font-weight: lighter;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        background-color :#565454;
+        color: #D3D3D3;
+   }
+   #container{
+      background-color: black;
+       padding-bottom: 5px;
+   }
+    header{
+       text-align: center;
+    
+   }
+
+    nav ul {
+        padding-left: 0;
+        border-bottom: 1px solid white;
+        margin: 0 10px;
+        
+      }
+      nav li {
+        display: inline-block;
+        margin-bottom: 5px;
+        
+      }
+      nav a {
+        display: inline-block;
+        padding: 5px 1em;
+        background-color:#C0C0C0 ;
+        border-radius: 2em;
+        color: #171717
+      }
+      nav a:hover{
+          background-color: blue;
+      }
+
+    h1{
+       margin-top: 0;
+       padding-top: 3px;
+   }
+
+    figure img{
+        width: 150px;
+    }
+    #poster{
+        float: left;
+    }
+    #sinopse{
+        clear: both;   
+        margin: 15px 15px
+    }
+    #sinopse p {
+      text-indent: 2em;
+    }  
+ 
+
+  h2{
+       margin-bottom: 3px;
+   }
+    #info p {
+        margin: 8px 0 10px 0;
+        color: #848080;
+    }
+    #info>p>span{
+        color: #D3D3D3
+    }
+    #titleEn{
+        font-style: oblique;
+        color: white
+    }
+    a{
+        text-decoration: none;
+        color:  #00BFFF;   
+    }
+    /* Conteudo midia */
+    #media{
+        margin: 1em;
+      float: left;
+    }
+    #media img{
+        width: 130px;
+      
+    } 
+    #media ul {
+        padding-left: 0;
+        margin-right: 0;
+      }
+    #media li {
+        display: inline-block;
+      margin:  2px 9px
+}
+    #video{
+       margin: 1em;
+       clear: both;
+      text-align: center;
+    }
+    video{
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+
